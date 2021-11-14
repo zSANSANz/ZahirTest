@@ -1,7 +1,7 @@
 Rest Test.
 • From Above ERD please create Rest full API.
 
-![alt text](https://github.com/zSANSANz/ZahirTest/erd.PNG)
+![alt text](https://github.com/zSANSANz/ZahirTest/blob/master/erd.PNG)
 
 1. Create register API(Include Generate password).
 • Acceptance
@@ -46,7 +46,7 @@ The MVP of Zahir MINI-Project e-Commerce is REST-API is :
 
 And this ERD of Zahir MINI-Project e-Commerce is REST-API is like this :
 
-![alt text](https://github.com/zSANSANz/KoalaTest/blob/main/RestTest/erd.PNG)
+![alt text](https://github.com/zSANSANz/ZahirTest/blob/master/erd.PNG)
 
 ## Tutorial
 
@@ -54,8 +54,8 @@ We provide another documentation using swagger to make it easy to understand the
 
 How to run this project :
 
-1. git clone `https://github.com/zSANSANz/KoalaTest.git`
-2. cd `KoalaTest` and run `go install`
+1. git clone `git@github.com:zSANSANz/ZahirTest.git`
+2. cd `ZahirTest` and run `go install`
 3. setup envirotment, rename file `.env.example` to `.env`. And setup this variabel envirotment.
 4. after finished install this module, run command `go run swagger.go` for running this documentation to browser like this `localhost:8080/swaggerui`
 5. run command `go run main.go` to running this server like this `localhost:8000`
