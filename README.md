@@ -63,6 +63,7 @@ How to run this project :
 
 ## HTTP requests
 
+
 There are 4 basic HTTP requests that you can use in this API:
 
 * `POST` Create a resource
@@ -84,6 +85,9 @@ Each response will be returned with one of the following HTTP status codes:
 * `500` `Server Error` An error on the server occurred
 
 ## API Documentation
+
+Retail Store Ecommerce API
+- [Swagger Documentation](https://app.swaggerhub.com/apis/hasantech/simple-inventory_api/1.2)
 
 ### /register
 
