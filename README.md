@@ -1,7 +1,7 @@
 Rest Test.
 • From Above ERD please create Rest full API.
 
-![alt text](https://github.com/zSANSANz/KoalaTest/blob/main/RestTest/erd.PNG)
+![alt text](https://github.com/zSANSANz/ZahirTest/erd.PNG)
 
 1. Create register API(Include Generate password).
 • Acceptance
@@ -30,13 +30,13 @@ o token is only one use.
 o order number generated with format PO-123/IX/2020 (IX is
 current month)(2020 is current year),(123 reset per month).
 o order detail can be more than one
-# Alta Store REST API (ASRA)
+# MINI-Project e-Commerce REST API (Zahir)
 
 ## Overview
 
-KoalaRetail is REST-API specifically build to support online store system of ALTA. ASRA provides functionality that allows developers to behave either as customer or admin. ASRA is created using Golang, Gorm, and MYSQL as database.
+Zahir MINI-Project e-Commerce is REST-API specifically build to support online store system of Zahir. Zahir provides functionality that allows developers to behave either as customer or admin. Zahir is created using Golang, Gorm, and MYSQL as database.
 
-The MVP of KoalaRetail is :
+The MVP of Zahir MINI-Project e-Commerce is REST-API is :
 
 * Login and register customers
 * Customers can view list product
@@ -44,7 +44,7 @@ The MVP of KoalaRetail is :
 * Customers can delete the product list from the order detail
 * Customers can make payment transactions
 
-And this ERD of KoalaRetail is like this :
+And this ERD of Zahir MINI-Project e-Commerce is REST-API is like this :
 
 ![alt text](https://github.com/zSANSANz/KoalaTest/blob/main/RestTest/erd.PNG)
 
