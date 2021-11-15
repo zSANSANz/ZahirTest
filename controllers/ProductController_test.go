@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func InitEcho() *echo.Echo {
+func InitEchoProduct() *echo.Echo {
 	// Setup
 	config.InitDB()
 	e := echo.New()

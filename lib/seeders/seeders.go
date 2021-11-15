@@ -28,3 +28,20 @@ func ProductsSeed() ([]models.Product, error) {
 
 	return products, nil
 }
+
+func CustomersSeed() ([]models.Customer, error) {
+	CustomerNames := []string{"JNE", "J&T", "TIKI", "JET", "Wahana"}
+	for _, customerName := range CustomerNames {
+		customer := models.Customer{
+			CustomerName: customerName,
+		}
+		err := config.DB.Create(&customer).Error
+		if err != nil {
+			return nil, err
+		}
+	}
+	customer := []models.Customer{}
+	//config.DB.Find(&couriers)
+
+	return customer, nil
+}
