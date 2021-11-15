@@ -13,7 +13,7 @@ func Seed() error {
 }
 
 func ProductsSeed() ([]models.Product, error) {
-	ProductNames := []string{"JNE", "J&T", "TIKI", "JET", "Wahana"}
+	ProductNames := []string{"tepung", "beras", "telur", "mie instan", "minyak goreng"}
 	for _, productName := range ProductNames {
 		product := models.Product{
 			ProductName: productName,
@@ -30,7 +30,7 @@ func ProductsSeed() ([]models.Product, error) {
 }
 
 func CustomersSeed() ([]models.Customer, error) {
-	CustomerNames := []string{"JNE", "J&T", "TIKI", "JET", "Wahana"}
+	CustomerNames := []string{"sandi", "joko", "kelly", "budi", "rihana"}
 	for _, customerName := range CustomerNames {
 		customer := models.Customer{
 			CustomerName: customerName,
@@ -44,4 +44,5 @@ func CustomersSeed() ([]models.Customer, error) {
 	//config.DB.Find(&couriers)
 
 	return customer, nil
+
 }

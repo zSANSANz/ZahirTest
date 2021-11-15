@@ -1,12 +1,12 @@
 package db
 
 import (
-	"retailStore/config"
-	"retailStore/models"
-	"retailStore/middlewares"
 	"fmt"
+	"retailStore/config"
+	"retailStore/middlewares"
+	"retailStore/models"
+
 	"golang.org/x/crypto/bcrypt"
-	"time"
 )
 
 func GetCustomers() (interface{}, error) {
@@ -72,7 +72,6 @@ func RegisterCustomer(customer *models.Customer) (interface{}, error) {
 	customers.PhoneNumber = customer.PhoneNumber
 	customers.Salt = customer.Salt
 	customers.Password = string(bytes)
-	customers.CreatedDate = time.Now()
 
 	if err := config.DB.Create(customers).Error; err != nil {
 		return nil, err
